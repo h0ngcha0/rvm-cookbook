@@ -32,6 +32,6 @@ template "/usr/local/bin/chef-solo" do
 end
 
 group "rvm" do
-  members ["ubuntu"]
+  members ["hongchao.liu"]
   append  true
 end
